@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="\\psf\home\documents\visual studio 2013\projects\parkinsondetected\parkinsondetected\obj\debug\intermediatexaml\parkinsondetected.exe" HashGuid="aa2291bb-8dbb-22fe-6011-dcd7c5064b80" />
+    <ReferenceAssembly PathName="\\psf\home\documents\visual studio 2013\projects\parkinsondetected\packages\microsoft.band.1.3.10219-preview\lib\wpa81\microsoft.band.dll" HashGuid="617a962a-2ae1-f21d-ded3-fcb8a30781d6" />
+    <ReferenceAssembly PathName="\\psf\home\documents\visual studio 2013\projects\parkinsondetected\packages\microsoft.band.1.3.10219-preview\lib\wpa81\microsoft.band.phone.dll" HashGuid="ab986af1-cdd5-9901-e899-fe280951a85e" />
+    <ReferenceAssembly PathName="\\psf\home\documents\visual studio 2013\projects\parkinsondetected\packages\microsoft.band.1.3.10219-preview\lib\wpa81\microsoft.band.store.dll" HashGuid="17cd85e1-86c6-8286-53ab-4696594079dd" />
+    <ReferenceAssembly PathName="\\psf\home\documents\visual studio 2013\projects\parkinsondetected\packages\newtonsoft.json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="225745d8-3693-ad6f-ebd5-8845d81f8e0f" />
+    <ReferenceAssembly PathName="\\psf\home\documents\visual studio 2013\projects\parkinsondetected\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.extensions.dll" HashGuid="794366f8-cc6d-f0fa-3d07-33b45136e193" />
+    <ReferenceAssembly PathName="\\psf\home\documents\visual studio 2013\projects\parkinsondetected\packages\microsoft.aspnet.webapi.client.5.2.0\lib\portable-wp8+netcore45+net45+wp81+wpa81\system.net.http.formatting.dll" HashGuid="be2a4785-9a6a-e28d-8cef-3eb295a45d5a" />
+    <ReferenceAssembly PathName="\\psf\home\documents\visual studio 2013\projects\parkinsondetected\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <ReferenceAssembly PathName="\\psf\home\documents\visual studio 2013\projects\parkinsondetected\packages\webapirestservice.webapiclient.1.1\lib\portable-net45+win+wpa81+wp80\webapirestservice.webapiclient.dll" HashGuid="61f0686c-adbf-7f03-6087-d67b60a4f166" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

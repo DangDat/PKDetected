@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="ParkinsonDetected.Pages.Test"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ParkinsonDetected.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ScrollViewer>
+            <StackPanel>
+
+
+                <Grid Height="640">
+
+                    <Button x:ConnectionId='1' x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="120,255,0,0" VerticalAlignment="Top" Width="145"                            Template="{StaticResource RoundButtonStyle}" Height="138"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,9,0,0" TextWrapping="Wrap" Text="Testing Event" VerticalAlignment="Top" Width="371" />
+                    <TextBox x:Name="txt_name" HorizontalAlignment="Left" Margin="65,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="256"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="65,71,0,0" TextWrapping="Wrap" Text="Enter Your Name" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="65,155,0,0" TextWrapping="Wrap" Text="Enter Label" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txt_label" HorizontalAlignment="Left" Margin="65,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="256"/>
+
+
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+
+        </Grid>
+    </Grid>
+</Page>
+
